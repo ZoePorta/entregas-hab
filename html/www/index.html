@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Venta de vacas</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <header>
@@ -15,34 +15,37 @@
         </ul>
       </nav>
       <nav>
-        <a href="/enlace-al-carrito">Comprar</a>
+        <a class="cta" href="/enlace-al-carrito">Comprar</a>
       </nav>
       <h1>Vacas</h1>
     </header>
     <main>
-      <section id="texto">
+      <article>
         <h2>Lorem ipsum</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-          tempor diam at pellentesque laoreet. Sed dapibus sem tellus, non
-          efficitur orci molestie mollis. Morbi venenatis gravida ex, eu
-          pharetra urna volutpat at. Curabitur eget faucibus magna. Integer a
-          justo ligula.
-        </p>
-        <p>
-          Nam purus nisl, blandit eget iaculis at, interdum et nulla. Mauris ut
-          ante dignissim, accumsan neque at, vulputate massa. Nulla lobortis.
-        </p>
-        <p>
-          Nam purus nisl, blandit eget iaculis at, interdum et nulla. Mauris ut
-          ante dignissim, accumsan neque at, vulputate massa. Nulla lobortis,
-          sapien sit amet hendrerit ullamcorper, risus magna venenatis elit, nec
-          condimentum nisl massa id ex. Sed fermentum orci nec erat cursus
-          cursus. Integer bibendum lacus molestie metus iaculis, ac hendrerit
-          diam ullamcorper. Mauris placerat arcu pellentesque imperdiet
-          pellentesque.
-        </p>
-      </section>
+        <section id="texto">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+            tempor diam at pellentesque laoreet. Sed dapibus sem tellus, non
+            efficitur orci molestie mollis. Morbi venenatis gravida ex, eu
+            pharetra urna volutpat at. Curabitur eget faucibus magna. Integer a
+            justo ligula.
+          </p>
+          <p>
+            Nam purus nisl, blandit eget iaculis at, interdum et nulla. Mauris
+            ut ante dignissim, accumsan neque at, vulputate massa. Nulla
+            lobortis.
+          </p>
+          <p>
+            Nam purus nisl, blandit eget iaculis at, interdum et nulla. Mauris
+            ut ante dignissim, accumsan neque at, vulputate massa. Nulla
+            lobortis, sapien sit amet hendrerit ullamcorper, risus magna
+            venenatis elit, nec condimentum nisl massa id ex. Sed fermentum orci
+            nec erat cursus cursus. Integer bibendum lacus molestie metus
+            iaculis, ac hendrerit diam ullamcorper. Mauris placerat arcu
+            pellentesque imperdiet pellentesque.
+          </p>
+        </section>
+      </article>
       <section id="menuVacas">
         <nav>
           <article>
@@ -56,7 +59,7 @@
                   fermentum orci nec erat cursus cursus
                 </p>
               </li>
-              <li><a href="/enlace-al-carrito">Comprar</a></li>
+              <li><a class="cta" href="/enlace-al-carrito">Comprar</a></li>
             </ul>
           </article>
           <article>
@@ -72,7 +75,7 @@
                   fermentum orci nec erat cursus cursus
                 </p>
               </li>
-              <li><a href="/enlace-al-carrito">Comprar</a></li>
+              <li><a class="cta" href="/enlace-al-carrito">Comprar</a></li>
             </ul>
           </article>
           <article>
@@ -88,7 +91,7 @@
                   fermentum orci nec erat cursus cursus
                 </p>
               </li>
-              <li><a href="/enlace-al-carrito">Comprar</a></li>
+              <li><a class="cta" href="/enlace-al-carrito">Comprar</a></li>
             </ul>
           </article>
         </nav>
@@ -119,7 +122,7 @@
             <label for="comment">Comentarios</label>
             <textarea name="comment" id="comment"></textarea>
           </li>
-          <li>
+          <li id="newsletter">
             <label for="newsletter">Recibir Newsletter?</label>
             <input type="checkbox" name="newsletter" id="newsletter" />
           </li>
