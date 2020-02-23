@@ -52,7 +52,7 @@ header a.cta {
 
 h1,
 main h2 {
-  padding: 1rem;
+  padding: 1rem 0;
   color: white;
   font-size: 3rem;
   flex-basis: 100%;
@@ -202,6 +202,11 @@ footer button {
 
   main h2 {
     text-align: left;
+  }
+
+  section#texto {
+    columns: 2;
+    column-gap: 1.5em;
   }
 }
 
