@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Orbitron:900|Oxanium&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+legend {
+  font-family: Oxanium, Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  border: none;
+  max-width: 100%;
+  margin: 1rem;
+  text-align: center;
+}
+
+p#result {
+  visibility: hidden;
+}
+
+input,
+select,
+button {
+  padding: 0 1rem;
+  height: 3rem;
+  width: 7rem;
+  justify-self: center;
+}
+
+select,
+button {
+  background: steelblue;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: 900;
+  text-align-last: center;
+}
+
+#result {
+  text-align: center;
+  font-family: Orbitron, Arial, Helvetica, sans-serif;
+  font-size: 1.7rem;
+}
+
+@media (min-width: 600px) {
+  html {
+    font-size: 20px;
+  }
+
+  input,
+  select,
+  button {
+    height: 3rem;
+    width: 10rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  html {
+    font-size: 24px;
+  }
+
+  input,
+  select,
+  button {
+    height: 3rem;
+    width: 12rem;
+  }
+}
