@@ -1,0 +1,20 @@
+{
+  "name": "3_Servidor_web_regular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon servidor.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "date-fns": "^2.12.0",
+    "express": "^4.17.1"
+  }
+}
