@@ -1,5 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@font-face {
+  font-family: "pokemon_solidnormal";
+  src: url("pokemon_solid-webfont.woff2") format("woff2"),
+    url("pokemon_solid-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Press Start 2P", sans-serif;
+  padding: 2rem;
+}
+
+h1 {
+  padding: 2rem;
+}
+
+h1 a {
+  --bordersize: 0.25rem;
+  --bordersize-: -0.25rem;
+  --bordercolor: rgb(55, 55, 221);
+  font-size: 5rem;
+  color: rgb(255, 222, 36);
+  text-shadow: var(--bordersize) 0 0 var(--bordercolor),
+    var(--bordersize-) 0 0 var(--bordercolor),
+    0 var(--bordersize) 0 var(--bordercolor),
+    0 var(--bordersize-) 0 var(--bordercolor),
+    var(--bordersize-) var(--bordersize) blue;
+
+  text-decoration: none;
+  font-family: pokemon_solidnormal, "Press Start 2P", sans-serif;
+}
+
+li figure {
+  display: flex;
+  padding: 0 auto;
+
+  justify-content: center;
+}
+
+li {
+  max-width: 550px;
+  padding: 1rem;
+  list-style: none;
+}
+
+fieldset {
+  border: none;
+  display: inline;
+}
+
+input {
+  padding: 1rem;
+}
+
+button {
+  padding: 0.5rem;
+  background-color: red;
+  font-weight: bolder;
+  display: inline;
 }
